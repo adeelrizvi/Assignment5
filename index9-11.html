@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        
+//task1
+        var x=prompt("Enter your city name!!");
+        if(x==='karachi'){
+            alert("Welcome to city of lights");
+        }
+        else{
+            alert("Try again");
+        }
+
+
+//task2
+        var a=prompt("Enter Your Gender");
+        if(a==='Male'){
+            alert(" Good Morning Sir");
+        }
+        else if(a==='Female'){
+            alert("Good Morning Maam");
+        }
+//task3
+        var r=prompt("Enter color of road traffic signal");
+        if(r==="Red"){
+            alert("Must Stop");
+        }
+        else if(r==='Yellow'){
+            alert("Ready to move");
+
+        }
+        else if(r==='Green'){
+            alert("Move Now");
+        }
+//task4
+        var f=parseInt(prompt("Remaining fuel"));
+
+        if(f<0.25){
+            alert("Please refill the fuel in your car");
+        }
+        else{
+            alert("No need to worry");
+        }
+
+//task5
+        var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
+}
+
+        var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is true");
+}
+//task5
+var c = 12;
+if (c++ === 13){
+alert("condition 1 is true");
+}
+//task5
+
+if (c === 13){
+alert("condition 2 is true");
+}
+//task5
+
+if (++c < 14){
+alert("condition 3 is true");
+}
+//task5
+
+if(c === 14){
+alert("condition 4 is true");
+}
+
+//task5
+
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+
+//task5
+
+if (true){
+alert("True");
+}
+if (false){
+alert("False");
+}
+//task5
+
+if("car" < "cat"){
+alert("car is smaller than cat");
+}
+
+
+//task6
+
+var totalnum=300;
+var marks=parseInt(prompt("Enter you marks"));
+var ans=marks/totalnum*100;
+
+if(ans>=80 && ans<=99){
+    
+    document.write("MARKSHEET"+"<br>");
+    document.write("Total Marks:"+totalnum+"<br>");
+    document.write("Marks obtained"+marks+"<br>");
+    document.write("Percentage"+ans+"%"+"<br>");
+    document.write("Grade:A-one"+"<br>");
+    document.write("Remarks:Excellent"+"<br>");
+}
+
+else if(ans>=70 && ans<=79){
+    
+    document.write("MARKSHEET"+"<br>");
+    document.write("Total Marks:"+totalnum+"<br>");
+    document.write("Marks obtained"+marks+"<br>");
+    document.write("Percentage"+ans+"%"+"<br>");
+    document.write("Grade:A grade"+"<br>");
+    document.write("Remarks:Good"+"<br>");
+}
+
+else if(ans>=60 && ans<=69){
+    
+    document.write("MARKSHEET"+"<br>");
+    document.write("Total Marks:"+totalnum+"<br>");
+    document.write("Marks obtained"+marks+"<br>");
+    document.write("Percentage"+ans+"%"+"<br>");
+    document.write("Grade:B grade"+"<br>");
+    document.write("Remarks:You need to improve"+"<br>");
+}
+
+else if(ans<60){
+    document.write("MARKSHEET"+"<br>");
+    document.write("Total Marks:"+totalnum+"<br>");
+    document.write("Marks obtained"+marks+"<br>");
+    document.write("Percentage"+ans+"%"+"<br>");
+    document.write("Grade:Fail"+"<br>");
+    document.write("Remarks:Sorry"+"<br>");
+}
+
+//task7
+
+var guess=5;
+
+var tk=parseInt(prompt("Enter a number"));
+
+if(tk===guess){
+    alert("Bingo!Correct Answer");
+
+}
+else if(tk=guess){
+alert("You are too closed");
+}
+else{
+    alert("Try again")
+}
+//task8
+var ch=3;
+var tl=parseInt(prompt("Enter a number"));
+if(tl%3==0){
+    alert("Yes it is divisible by 3");
+}
+else{
+    alert("try with another number");
+
+}
+//task9
+var eo=parseInt(prompt("Enter a number"));
+
+if(eo%2==0){
+alert("Its a even number");
+}
+else {
+    alert("its a odd number");
+}
+//task10
+
+var t=43;
+if(t>40){
+    alert("It is too hot outside");
+
+}
+else if(t >30){
+    alert("The Weather today is Normal");
+}
+else if(t >20){
+    alert("Today’s Weather is cool.");
+}
+else if(t>10){
+    alert("OMG! Today’s weather is so Cool.");
+}
+//task11
+var aa=parseInt(prompt("Enter a first number"));
+var bb=parseInt(prompt("Enter a second number"));
+var cal=prompt("Operation");
+
+if(cal==='+'){
+    alert(aa+bb);
+}
+else if(cal==='-'){
+    alert(aa-bb);
+}
+else if(cal==='*'){
+    alert(aa*bb);
+}
+else if(cal==='/'){
+    alert(aa/bb);
+}
+else if(cal==='%'){
+    alert(aa%bb);
+}
+else{
+    alert("Wrong operation");
+}
+    </script>
+</body>
+</html>
